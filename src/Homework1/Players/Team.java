@@ -11,7 +11,6 @@ public class Team {
     public Team(String teamName, Member[] members) {
         this.teamName = teamName;
         this.members = members;
-
     }
 
     public void showAllMembers() {
@@ -20,8 +19,7 @@ public class Team {
         }
     }
 
-
-   public void passAnObstacle (Obstacles obstacles){
+    public void passAnObstacle (Obstacles obstacles){
         for (int i = 0; i < members.length; i++) {
             if ((this.members[i].getMaxRun()>=obstacles.getRunDistance()) &&
                     (this.members[i].getMaxSwim()>=obstacles.getSwimDistance())
@@ -29,7 +27,6 @@ public class Team {
                 System.out.println(members[i].getName() + " passed the obstacle");
             }
         }
-
     }
 
 }

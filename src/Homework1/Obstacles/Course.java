@@ -11,9 +11,10 @@ public class Course {
         this.trackName = trackName;
         this.obstacles = obstacles;
     }
-public void doIT (Team team){
- for (int i=0; i< obstacles.length;i++){
-team.passAnObstacle(this.obstacles[i]);
- }
-}
+
+    public void doIT(Team team) {
+        for (int i = 0; i < obstacles.length; i++) {
+            team.passAnObstacle(this.obstacles[i]);
+        }
+    }
 }

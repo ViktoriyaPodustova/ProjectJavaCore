@@ -18,8 +18,4 @@ public class Member {
     public int getMaxRun(){return maxRun;}
     public int getMaxSwim(){return maxSwim;}
     public int getMaxJump(){return maxJump;}
-
-
-
-
 }
