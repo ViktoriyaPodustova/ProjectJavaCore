@@ -9,7 +9,7 @@ public class WorkClass {
     public static void main(String args[]){
         Member player1 = new Member("Ivan", 10, 5, 3);
         Member player2 = new Member("Ira", 5, 3, 2);
-        Member player3 = new Member("Roma", 15, 10, 6);
+        Member player3 = new Member("Roma", 14, 10, 6);
         Member player4 = new Member("Liza", 6, 4, 3);
 
         Member player5 = new Member("Dima", 20, 9, 5);

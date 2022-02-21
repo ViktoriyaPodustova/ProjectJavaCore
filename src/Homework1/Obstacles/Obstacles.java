@@ -12,6 +12,7 @@ public class Obstacles {
     }
 
 public int getRunDistance(){return runDistance;}
+
     public int getSwimDistance(){return swimDistance;}
     public int getJumpDistance(){return jumpDistance;}
 

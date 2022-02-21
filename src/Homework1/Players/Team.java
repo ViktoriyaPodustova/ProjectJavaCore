@@ -26,7 +26,7 @@ public class Team {
             if ((this.members[i].getMaxRun()>=obstacles.getRunDistance()) &&
                     (this.members[i].getMaxSwim()>=obstacles.getSwimDistance())
                     && (this.members[i].getMaxJump()>=obstacles.getJumpDistance())) {
-                System.out.println(members[i].getName() + " passed the obstacle");
+                System.out.println(members[i].getName() + " passed the obstacle!");
             }
         }
 

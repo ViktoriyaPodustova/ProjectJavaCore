@@ -13,7 +13,7 @@ public class Course {
     }
 public void doIT (Team team){
  for (int i=0; i< obstacles.length;i++){
-team.passAnObstacle(this.obstacles[i]);
+        team.passAnObstacle(this.obstacles[i]);
  }
 }
 }
