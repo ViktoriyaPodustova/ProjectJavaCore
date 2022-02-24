@@ -23,6 +23,12 @@ public class WorkClass {
         Team team1 = new Team("Losers", membersTeam1);
         Team team2 = new Team("Winners", membersTeam2);
 
+
+        int[ ] arr = new int[3];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]=i+1);
+        }
+
 //_____________________________________________________________________________________
 
         Obstacles trak1 = new Obstacles(10,5,2);
@@ -39,4 +45,9 @@ public class WorkClass {
         course.doIT(team2);
     }
 
+    private static class String {
+    }
+
+    private static class System {
+    }
 }
